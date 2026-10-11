@@ -1,0 +1,16 @@
+/* Custom ReadEasy animations & styles */
+@keyframes highlightPulse {
+  0% {
+    background-color: rgba(254, 205, 211, 0.9);
+  }
+  50% {
+    background-color: rgba(254, 240, 138, 0.9);
+  }
+  100% {
+    background-color: rgba(254, 205, 211, 0.9);
+  }
+}
+
+.highlight-pulse {
+  animation: highlightPulse 2s infinite ease-in-out;
+}
